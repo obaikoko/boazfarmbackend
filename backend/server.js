@@ -16,7 +16,7 @@ connectDB();
 const app = express();
 const corsOptions = {
   // origin: 'http://localhost:3000',
-  origin: 'https://boazfarmbackend.onrender.com',
+  origin: 'https://boazfarm-3rwl.vercel.app',
   credentials: true,
 };
 
