@@ -15,7 +15,8 @@ const port = process.env.PORT || 5000;
 connectDB();
 const app = express();
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  // origin: 'http://localhost:3000',
+  origin: 'https://boazfarmbackend.onrender.com',
   credentials: true,
 };
 
